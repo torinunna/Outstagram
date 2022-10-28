@@ -14,6 +14,8 @@
 		86B3B4DE290A6AD5007186F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B3B4DC290A6AD5007186F1 /* LaunchScreen.storyboard */; };
 		86B3B4E7290A6AF7007186F1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 86B3B4E6290A6AF7007186F1 /* SnapKit */; };
 		86B3B4E9290A6C44007186F1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3B4E8290A6C44007186F1 /* TabBarController.swift */; };
+		86B3B4EC290A7A20007186F1 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3B4EB290A7A20007186F1 /* FeedTableViewCell.swift */; };
+		86B3B4EE290BC343007186F1 /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3B4ED290BC343007186F1 /* UIButton+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		86B3B4DD290A6AD5007186F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86B3B4DF290A6AD5007186F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86B3B4E8290A6C44007186F1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		86B3B4EB290A7A20007186F1 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		86B3B4ED290BC343007186F1 /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			children = (
 				86B3B4D1290A6AD3007186F1 /* AppDelegate.swift */,
 				86B3B4D3290A6AD3007186F1 /* SceneDelegate.swift */,
+				86B3B4ED290BC343007186F1 /* UIButton+.swift */,
 				86B3B4EA290A6C4D007186F1 /* Scenes */,
 				86B3B4DA290A6AD5007186F1 /* Assets.xcassets */,
 				86B3B4DC290A6AD5007186F1 /* LaunchScreen.storyboard */,
@@ -73,6 +78,7 @@
 			children = (
 				86B3B4E8290A6C44007186F1 /* TabBarController.swift */,
 				86B3B4D5290A6AD3007186F1 /* FeedViewController.swift */,
+				86B3B4EB290A7A20007186F1 /* FeedTableViewCell.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -154,8 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				86B3B4D6290A6AD3007186F1 /* FeedViewController.swift in Sources */,
+				86B3B4EE290BC343007186F1 /* UIButton+.swift in Sources */,
 				86B3B4E9290A6C44007186F1 /* TabBarController.swift in Sources */,
 				86B3B4D2290A6AD3007186F1 /* AppDelegate.swift in Sources */,
+				86B3B4EC290A7A20007186F1 /* FeedTableViewCell.swift in Sources */,
 				86B3B4D4290A6AD3007186F1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
