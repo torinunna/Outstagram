@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		862DA6B2290D74DD0039333F /* ProfileDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862DA6B1290D74DD0039333F /* ProfileDataView.swift */; };
 		86B3B4D2290A6AD3007186F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3B4D1290A6AD3007186F1 /* AppDelegate.swift */; };
 		86B3B4D4290A6AD3007186F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3B4D3290A6AD3007186F1 /* SceneDelegate.swift */; };
 		86B3B4D6290A6AD3007186F1 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3B4D5290A6AD3007186F1 /* FeedViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		862DA6B1290D74DD0039333F /* ProfileDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataView.swift; sourceTree = "<group>"; };
 		86B3B4CE290A6AD3007186F1 /* Outstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Outstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B3B4D1290A6AD3007186F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86B3B4D3290A6AD3007186F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,8 @@
 				86B3B4D1290A6AD3007186F1 /* AppDelegate.swift */,
 				86B3B4D3290A6AD3007186F1 /* SceneDelegate.swift */,
 				86B3B4ED290BC343007186F1 /* UIButton+.swift */,
+				86B3B4F1290C1E43007186F1 /* Feed */,
+				86B3B4F2290C1E56007186F1 /* Profile */,
 				86B3B4EA290A6C4D007186F1 /* Scenes */,
 				86B3B4DA290A6AD5007186F1 /* Assets.xcassets */,
 				86B3B4DC290A6AD5007186F1 /* LaunchScreen.storyboard */,
@@ -79,8 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				86B3B4E8290A6C44007186F1 /* TabBarController.swift */,
-				86B3B4F2290C1E56007186F1 /* Profile */,
-				86B3B4F1290C1E43007186F1 /* Feed */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				86B3B4EF290C1DC6007186F1 /* ProfileViewController.swift */,
+				862DA6B1290D74DD0039333F /* ProfileDataView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				86B3B4D2290A6AD3007186F1 /* AppDelegate.swift in Sources */,
 				86B3B4F0290C1DC6007186F1 /* ProfileViewController.swift in Sources */,
 				86B3B4EC290A7A20007186F1 /* FeedTableViewCell.swift in Sources */,
+				862DA6B2290D74DD0039333F /* ProfileDataView.swift in Sources */,
 				86B3B4D4290A6AD3007186F1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -61,6 +61,10 @@ final class ProfileViewController: UIViewController {
         return button
     }()
     
+    private let postDataView = ProfileDataView(title: "post", count: 123)
+    private let followerDataView = ProfileDataView(title: "follower", count: 2002)
+    private let followingDataView = ProfileDataView(title: "following", count: 126)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpNavigationItem()
@@ -82,8 +86,12 @@ private extension ProfileViewController {
         buttonStackView.spacing = 4.0
         buttonStackView.distribution = .fillEqually
         
+        let dataStackView = UIStackView(arrangedSubviews: [postDataView, followerDataView, followingDataView])
+        dataStackView.spacing = 4.0
+        dataStackView.distribution = .fillEqually
+        
         [
-            profileImageView, nameLabel, bioLabel, buttonStackView
+            profileImageView, dataStackView, nameLabel, bioLabel, buttonStackView
         ].forEach { view.addSubview($0) }
         
         let inset: CGFloat = 8.0
@@ -93,6 +101,13 @@ private extension ProfileViewController {
             $0.leading.equalToSuperview().inset(inset)
             $0.width.equalTo(80.0)
             $0.height.equalTo(profileImageView.snp.width)
+        }
+        
+        dataStackView.snp.makeConstraints {
+            $0.leading.equalTo(profileImageView.snp.trailing)
+                .offset(inset)
+            $0.trailing.equalToSuperview().inset(inset)
+            $0.centerY.equalTo(profileImageView.snp.centerY)
         }
         
         nameLabel.snp.makeConstraints {
