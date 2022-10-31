@@ -45,7 +45,7 @@ final class FeedTableViewCell: UITableViewCell {
         let label = UILabel()
         label.textColor = .label
         label.font = .systemFont(ofSize: 13.0, weight: .semibold)
-        label.text = "토리누나 님 외 23명이 좋아합니다."
+        label.text = "Liked by Torinunna and others"
         
         return label
     }()
