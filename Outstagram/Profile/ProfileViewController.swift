@@ -114,8 +114,20 @@ private extension ProfileViewController {
     func setUpNavigationItem() {
         navigationItem.title = "torinunna"
         
-        let rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "ellipsis"), style: .plain, target: self, action: nil)
+        let rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "ellipsis"), style: .plain, target: self, action: #selector(rightBarButtonPressed))
         navigationItem.rightBarButtonItem = rightBarButtonItem
+    }
+    
+    @objc func rightBarButtonPressed() {
+        let actionSheet = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
+       
+        [
+            UIAlertAction(title: "Account", style: .default),
+            UIAlertAction(title: "Sign Out", style: .destructive),
+            UIAlertAction(title: "Close", style: .cancel)
+        ].forEach { actionSheet.addAction($0) }
+        
+        present(actionSheet, animated: true)
     }
     
     func setUpLayout() {
