@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86073B4F290F8A3900A26588 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86073B4E290F8A3900A26588 /* ProfileCollectionViewCell.swift */; };
 		862DA6B2290D74DD0039333F /* ProfileDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862DA6B1290D74DD0039333F /* ProfileDataView.swift */; };
 		86B3B4D2290A6AD3007186F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3B4D1290A6AD3007186F1 /* AppDelegate.swift */; };
 		86B3B4D4290A6AD3007186F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3B4D3290A6AD3007186F1 /* SceneDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86073B4E290F8A3900A26588 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		862DA6B1290D74DD0039333F /* ProfileDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataView.swift; sourceTree = "<group>"; };
 		86B3B4CE290A6AD3007186F1 /* Outstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Outstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B3B4D1290A6AD3007186F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				86B3B4EF290C1DC6007186F1 /* ProfileViewController.swift */,
+				86073B4E290F8A3900A26588 /* ProfileCollectionViewCell.swift */,
 				862DA6B1290D74DD0039333F /* ProfileDataView.swift */,
 			);
 			path = Profile;
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86B3B4D6290A6AD3007186F1 /* FeedViewController.swift in Sources */,
+				86073B4F290F8A3900A26588 /* ProfileCollectionViewCell.swift in Sources */,
 				86B3B4EE290BC343007186F1 /* UIButton+.swift in Sources */,
 				86B3B4E9290A6C44007186F1 /* TabBarController.swift in Sources */,
 				86B3B4D2290A6AD3007186F1 /* AppDelegate.swift in Sources */,
